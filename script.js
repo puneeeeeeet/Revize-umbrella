@@ -31,4 +31,4 @@ const umbrellaImg = document.getElementById("umbrella-img");
         });
       });
 
-      
+    

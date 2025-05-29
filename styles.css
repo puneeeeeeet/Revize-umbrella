@@ -128,3 +128,15 @@ body {
   .theme-yellow {
     background-color: #fff9d1;
   }
+  body {
+    transition: background-color 0.5s ease;
+  }
+  
+  #umbrella-img {
+    transition: transform 0.5s ease;
+  }
+  
+  #logo-preview {
+    transition: opacity 0.3s ease-in;
+  }
+  
