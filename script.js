@@ -19,7 +19,7 @@ const umbrellaImg = document.getElementById("umbrella-img");
           };
           reader.readAsDataURL(file);
         } else {
-          alert("File must be under 5MB and of type PNG or JPG.");
+          alert("File must be under 5MB");
         }
       });
 
