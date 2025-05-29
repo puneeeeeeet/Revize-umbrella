@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Umbrella Customizer</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="theme-blue">
+    <div class="main-container">
+        <div class="umbrella-section">
+          <img id="umbrella-img" src="assets/umbrella_blue.png" alt="Umbrella" />
+          <img id="logo-preview" alt="Logo" />
+        </div>
+  
+        <div class="customizer-section">
+          <h1>Custom Umbrella</h1>
+          <div class="colors">
+            <div class="color-btn" style="background:#00a8e8" data-color="blue"></div>
+            <div class="color-btn" style="background:#ff1493" data-color="pink"></div>
+            <div class="color-btn" style="background:#ffd700" data-color="yellow"></div>
+          </div>
+          <div class="description">
+            <strong>Customize your umbrella</strong><br />
+            Upload a logo for an instant preview.<br />
+            .png and .jpg files only. Max file size is 5MB.
+          </div>
+          <div class="upload-container">
+            <label class="upload-label" for="logo-upload">
+              &#8682; UPLOAD LOGO
+            </label>
+            <input type="file" id="logo-upload"  />
+          </div>
+        </div>
+      </div>
+  
+
+  <script src="script.js"></script>
+</body>
+</html>

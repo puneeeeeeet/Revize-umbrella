@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #e8f6fc;
+    color: #333;
+  }
+
+  .main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 2rem;
+  }
+
+  .umbrella-section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+
+  .umbrella-section img {
+    max-width: 100%;
+    width: 400px;
+  }
+
+  #logo-preview {
+    position: absolute;
+    bottom: 15px;
+    width: 100px;
+    display: none;
+  }
+
+  .customizer-section {
+    flex: 1;
+    max-width: 500px;
+    padding-left: 2rem;
+  }
+
+  .customizer-section h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+
+  .colors {
+    display: flex;
+    gap: 0.75rem;
+    margin: 1rem 0;
+  }
+
+  .color-btn {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid #ccc;
+    cursor: pointer;
+    transition: border 0.3s;
+  }
+
+  .color-btn:hover {
+    border-color: #000;
+  }
+
+  .description {
+    margin: 1rem 0;
+    font-size: 1rem;
+  }
+
+  .upload-container {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .upload-label {
+    background-color: #00a8e8;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  #umbrella-img {
+    display: block;
+    margin: auto;
+    transform-origin: center center;
+  }
+
+  @keyframes rotateUmbrella {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .rotate {
+    animation: rotateUmbrella 1s ease-in-out;
+  }
+
+  .upload-label:hover {
+    background-color: #008dc2;
+  }
+
+  input[type="file"] {
+    display: none;
+  }
+  .theme-pink {
+    background-color: #fde6f3;
+  }
+  
+  .theme-blue {
+    background-color: #d7efff;
+  }
+  
+  .theme-yellow {
+    background-color: #fff9d1;
+  }
